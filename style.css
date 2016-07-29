@@ -2,10 +2,12 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
+	font-family: "Open Sans";
 }
 
 body{
 	max-width: 100%;
+	min-width: 50%
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -15,9 +17,10 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 5em;
-	padding-bottom: 5em;
+	padding-bottom: 2em;
 	font-family: "Open Sans";
 	font-size: 12px;
+	le
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 100;
@@ -28,7 +31,7 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
-	font-size: 200px;
+	font-size: 1100%;
 	min-width: 100%;
 	max-width: 100%;
 	letter-spacing: 1%
@@ -37,31 +40,42 @@ h1 {
 	padding-top: 25%;
 	padding-bottom: 25%;
 	font-family: verdana;
+	text-shadow: 
 }
 
 h2 {
 	text-align: center;
 	text-transform: uppercase;
+	color: gray;
+	font-size: 300%;
+	min-width: 100%;
+	max-width: 100%;
 	letter-spacing: 1%
+	margin-left: 0;
+	margin-right: 0;
+	padding-top: 10%;
+	padding-bottom: 10%;
 	font-family: verdana;
+	text-shadow: 
 }
 
 h3 {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1%
-	font-family: verdana;
+	font-family: "Open Sans";
 }
 
 .parallax {
 	background: url(https://swwhitaker.github.io/images/Acadia_boulder_beach_webres.jpg) repeat fixed 100%;
 	background-size: 100%
-
 }
 
 .parallax-inner {
 	padding-top: 20%;
 	padding-bottom: 20%;
+	font-family: "Open Sans";
+	text-align: center;
 	margin-left: 0;
 	margin-right: 0;
 }
@@ -98,6 +112,14 @@ h3 {
 	padding-right: 3em;
 	padding-left: 3em;
 	text-align: center;
+}
+
+
+@media screen and (max-width: 673px) {
+  h1 {
+    word-wrap: break-word;
+    background-repeat: none;
+  }
 }
 
 .widget {
