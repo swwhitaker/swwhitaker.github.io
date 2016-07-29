@@ -4,13 +4,36 @@
 	border: 0;
 }
 
+body{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	max-width: 70%
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 20px;
+}
+
 h1 {
 	text-align: center;
-	font-size: 200%
 	text-transform: uppercase;
+	color: white;
+	font-size: 200px;
+	min-width: 100%;
+	max-width: 100%;
 	letter-spacing: 1%
-	margin-top: auto;
-	margin-bottom: auto;
+	margin-left: 0;
+	margin-right: 0;
 	padding-top: 25%;
 	padding-bottom: 25%;
 	font-family: verdana;
@@ -31,24 +54,53 @@ h3 {
 }
 
 .parallax {
-	background: url(https://swwhitaker.github.io/images/arc_webres.jpg) repeat fixed 50%;
+	background: url(https://swwhitaker.github.io/images/Acadia_boulder_beach_webres.jpg) repeat fixed 100%;
+	background-size: 100%
+
+}
+
+.parallax-inner {
+	padding-top: 20%;
+	padding-bottom: 20%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.parallax_2 {
+	background: url(https://swwhitaker.github.io/images/arc_webres.jpg) fixed 100%;
 	background-size: 100%
 
 
 }
-.parallax-inner {
+.parallax-inner_2 {
 	padding-top: 20%;
 	padding-bottom: 20%;
+
 }
 
-p {
+ #boxed {
+	font-size: 	120%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 20%;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	padding-right: 3em;
+	padding-left: 3em;
+	text-align: center;
 }
-.boxed {
-	font-size: 400%;
+
+#boxed1 {
+	font-size: 	100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 100%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-right: 3em;
+	padding-left: 3em;
+	text-align: center;
+}
+
+.widget {
+	margin-left: auto;
+	margin-right: auto;
 }
