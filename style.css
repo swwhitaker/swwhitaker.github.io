@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 200%
+	text-transform: uppercase;
+	letter-spacing: 1%
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-top: 25%;
+	padding-bottom: 25%;
+	font-family: verdana;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1%
+	font-family: verdana;
+}
+
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1%
+	font-family: verdana;
+}
+
+.parallax {
+	background: url(https://swwhitaker.github.io/images/arc_webres.jpg) repeat fixed 50%;
+	background-size: 100%
+
+
+}
+.parallax-inner {
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+p {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20%;
+}
+.boxed {
+	font-size: 400%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 100%;
+}
