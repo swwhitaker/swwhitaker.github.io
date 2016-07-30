@@ -22,12 +22,12 @@ nav {
 	color: gray;
 }
 
-a {
+#navlink {
 	color: gray;
 	position: relative;
 	vertical-align: center;
-	padding-left: 20%
-	padding-right: 20%;
+	padding-left: 10%
+	padding-right: 10%;
 	width: 80%;
 }
 
@@ -101,11 +101,15 @@ h3 {
 	padding-bottom: 10%;
 	font-family: verdana;
 	
+}
 
+img {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .parallax {
-	background: url(https://swwhitaker.github.io/images/Acadia_boulder_beach_webres.jpg) repeat fixed 100%;
+	background: url(https://swwhitaker.github.io/images/Acadia_boulder_beach_webres.jpg) fixed 100%;
 	background-size: 100%
 }
 
@@ -128,15 +132,26 @@ h3 {
 	padding-top: 40%;
 	padding-bottom: 40%;
 	width: 90%;
+}
+
+
+.parallax_3 {
+	background: url(https://swwhitaker.github.io/images/implied_golden_gate_color_webres.jpg) fixed 100%;
+	background-size: 100%
+
 
 }
+.parallax-inner_3 {
+	padding-top: 40%;
+	padding-bottom: 40%;
+	width: 90%;
+}
+
 
  #boxed {
 	font-size: 	120%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 3em;
-	margin-bottom: 3em;
 	padding-right: 3em;
 	padding-left: 3em;
 	text-align: center;
@@ -147,11 +162,13 @@ h3 {
 	font-size: 	200%;
 	text-align: center;
 	letter-spacing: 1%;
-	line-height: 10em;
+	line-height: 3em;
 	margin-left: auto;
 	margin-right: auto;
 	padding-right: 3em;
 	padding-left: 3em;
+	padding-top: 7em;
+	padding-bottom: 7em;
 	
 }
 
