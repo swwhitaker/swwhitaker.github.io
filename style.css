@@ -195,9 +195,42 @@ ul {
 	padding-right: 2em;
 	position: center;
 	color: gray;
+	width: 80%;
+	border: 2px solid gray;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -.5em;
+	margin-bottom: 2em;
+	display: block;
+	border-radius: 15px;
+	background: url(https://swwhitaker.github.io/images/golden_gate_bw_webres.jpg)fixed; 
+	background-size: 100%;
+	background-position: center;
+	background-color: grey;
+	background-repeat: repeat-y;
+	
+	
 }
 
-@media screen and (max-width: 828px) {
+li {
+	display: inline-flex;
+	position: relative;
+	border: 2px solid white;
+	border-radius: 4px;
+	color: white;
+	text-align: center;
+	vertical-align: center;
+	width: 45%;
+	background-color: grey;
+	opacity: 0.75;
+	padding: .3em;
+	margin: .5em;
+
+
+}
+
+
+@media screen and (max-width: 1005px) {
   h1 {
     word-wrap: break-word;
     background-repeat: none;
@@ -227,6 +260,9 @@ ul {
 	background-repeat: no-repeat;
 	background-blend-mode: color-dodge;
 	background-size: 200%
+  }
+  ul {
+  	background-size: 200%
   }
   }
 
